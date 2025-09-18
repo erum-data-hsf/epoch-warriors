@@ -32,6 +32,7 @@ In this tutorial, you are going to learn about epochs in deep learning.
 * [PyTorch documentation](https://docs.pytorch.org/docs/stable/index.html)
 
 
+## Table of Contents
 
 ```{tableofcontents}
 ```
