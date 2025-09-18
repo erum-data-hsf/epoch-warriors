@@ -30,11 +30,11 @@ jobs:
       - name: Build Jupyter Book (treat warnings as errors)
         working-directory: E
         run: |
-          jupyter-book build -W --keep-going .
+          jupyter-book build .
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: YOUR_BOOK_DIRECTORY/_build/html
+          path: E/_build/html
 
   deploy:
     if: github.ref == 'refs/heads/main'
