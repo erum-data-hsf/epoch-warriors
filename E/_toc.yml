@@ -5,5 +5,5 @@ format: jb-book
 root: intro
 chapters:
 - file: chapters
-- file: examples
 - file: fitting
+- file: simple_deep_learning
